@@ -25,7 +25,7 @@
     "rimraf": "^2.6.2"
   },
   "name": "kydon-markdown-navbar",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "description": "Best markdown navigation bar for React.",
   "main": "dist/index.js",
   "repository": {
