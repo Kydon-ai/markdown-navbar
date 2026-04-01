@@ -136,6 +136,7 @@ export class MarkdownNavbar extends Component {
         const contentWithoutCode = source
             .replace(/^[^#]+\n/g, '')
             .replace(/(?:[^\n#]+)#+\s([^#\n]+)\n*/g, '') // 匹配行内出现 # 号的情况
+            .replace(/^#\s[^#\n]*\n+/, '')
             .replace(/```[^`\n]*\n+[^```]+```\n+/g, '')
             .replace(/`([^`\n]+)`/g, '$1')
             .replace(/\*\*?([^*\n]+)\*\*?/g, '$1')
