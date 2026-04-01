@@ -1,4 +1,6 @@
 
+## [1.4.5](https://github.com/parksben/markdown-navbar/compare/v1.4.4...v1.4.5) (2026-04-01)
+
 ## [1.4.4](https://github.com/parksben/markdown-navbar/compare/8e4e2d92a2afb898067f616984e96efa79bd767d...v1.4.4) (2026-04-01)
 
 
