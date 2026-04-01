@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "prepublishOnly": "npm run build && npm run changelog",
     "build": "npm run compile-js && npm run compile-css",
     "compile-css": "npx postcss src/*.css --use autoprefixer -d dist",
     "compile-js": "rimraf dist && babel src --copy-files --ignore *.css --source-maps --extensions .js --out-dir dist",

@@ -1,14 +1,9 @@
+/* reference: https://blog.csdn.net/xz060585/article/details/129494847 */
 .markdown-navigation {
   font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  scrollbar-width: 0;
-  width:200px
-}
-.markdown-navigation::-webkit-scrollbar{
-  width:0;
+  overflow: hidden;
 }
 
 .markdown-navigation .title-anchor {
@@ -22,15 +17,20 @@
   cursor: pointer;
 }
 
-.markdown-navigation .title-anchor:hover,
-.markdown-navigation .title-anchor.active {
+.markdown-navigation .title-anchor:hover {
   background-color: #f8f8f8;
-  text-decoration: inherit;
+  color: #007fff;
+
 }
 
-.markdown-navigation .title-anchor.active {
-  color: #007fff;
-}
+/* .markdown-navigation .title-anchor.active {
+background-color: #f8f8f8;
+text-decoration: inherit;
+} */
+
+/* .markdown-navigation .title-anchor.active {
+color: #007fff;
+} */
 
 .markdown-navigation .title-anchor small {
   margin: 0 0.8em;
@@ -44,33 +44,45 @@
 }
 
 .markdown-navigation .title-level2 {
-  color: #333;
+  color: #000;
   font-size: 1em;
-  padding-left: 1em;
+  padding-left: 1.5em;
   font-weight: normal;
 }
 
 .markdown-navigation .title-level3 {
-  color: #666;
-  font-size: 0.8em;
+  color: #222;
+  font-size: 0.9em;
   padding-left: 3em;
   font-weight: normal;
 }
 
 .markdown-navigation .title-level4 {
-  color: #999;
-  font-size: 0.72em;
+  color: #444;
+  font-size: 0.8em;
   padding-left: 5em;
 }
 
 .markdown-navigation .title-level5 {
-  color: #aaa;
-  font-size: 0.72em;
-  padding-left: 7em;
+  color: #444;
+  font-size: 0.8em;
+  padding-left: 6.5em;
 }
 
 .markdown-navigation .title-level6 {
-  color: #bbb;
-  font-size: 0.72em;
-  padding-left: 9em;
+  color: #444;
+  font-size: 0.8em;
+  padding-left: 8em;
+}
+
+-navigation .title-level5 {
+  color: #444;
+  font-size: 0.8em;
+  padding-left: 6.5em;
+}
+
+.markdown-navigation .title-level6 {
+  color: #444;
+  font-size: 0.8em;
+  padding-left: 8em;
 }
